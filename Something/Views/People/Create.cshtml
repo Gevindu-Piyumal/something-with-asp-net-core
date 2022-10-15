@@ -1,0 +1,70 @@
+﻿@model Something.Models.People
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@{
+    People rdmObj = new People();
+    rdmObj.Name = Faker.Name.FullName(Faker.NameFormats.Standard);
+    rdmObj.Company = Faker.Company.Name();
+    rdmObj.Address = Faker.Address.StreetAddress();
+    rdmObj.Telephone = Faker.Phone.Number();
+}
+
+<script>
+    function randomData() {
+        document.getElementById("Name").value = "@rdmObj.Name";
+        document.getElementById("Company").value = "@rdmObj.Company";
+        document.getElementById("Address").value = "@rdmObj.Address";
+        document.getElementById("Telephone").value = "@rdmObj.Telephone";
+    }
+</script>
+
+<h1>Create</h1>
+
+<h4>People</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group text-end">
+                <button type="button" onclick="randomData()" class="btn btn-primary">Generate Fake Data</button>
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input id="Name" asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Company" class="control-label"></label>
+                <input id="Company" asp-for="Company" class="form-control" />
+                <span asp-validation-for="Company" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input id="Address" asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telephone" class="control-label"></label>
+                <input id="Telephone" asp-for="Telephone" class="form-control" />
+                <span asp-validation-for="Telephone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
