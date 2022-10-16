@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\gevin\Desktop\C#\Something\Something\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\gevin\Desktop\C#\Something\Something\obj\Release\net6.0\PubTmp\EFSQLScripts\Something.Data.ApplicationDbContext.sql" />
+</sitemanifest>

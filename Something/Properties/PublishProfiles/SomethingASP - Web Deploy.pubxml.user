@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATh2m9/hJbE++jvpIcCzIwAAAAAACAAAAAAAQZgAAAAEAACAAAACKGIbQhdXtv0Nu8wGJPg6gWIVusS0YH5iaoXzjbjxNlQAAAAAOgAAAAAIAACAAAABo0s7Bmv23vLfTeRt39yyfSVIV7TYxEWKdajkKNfdiRYAAAADK3noblsvj14fxWljYEipPki+6UPkiHcqfFG1eUsyN1AYJmhOgKIyfsrdldZanBCJVRrjPae4OoEZil19bxmkymg7ZjMRsgv6xYp9bYyeYFBfdVNDRW8UHD3rOa23+Y7g8bXK+0Og/vJGb47tKr3Vf59x1GJeyEV/ROC+4aGbG0UAAAACPu/rSPDakOkgC5gA+qDK7lnDjmR1WD2tQQbuy5Tl5QKFm2bPYlpGObMFEO9Y8Pttljjtm82FxzU8AAH6dQUge</EncryptedPassword>
+    <History>True|2022-10-16T17:41:22.0579256Z;True|2022-10-16T23:03:57.9234185+05:30;True|2022-10-16T22:54:50.2139358+05:30;True|2022-10-16T22:44:18.3470364+05:30;False|2022-10-16T22:37:20.8811340+05:30;False|2022-10-16T22:31:10.3178186+05:30;False|2022-10-16T22:29:33.6050724+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:server-something.database.windows.net,1433%3bInitial Catalog=something%3bPersist Security Info=False%3bUser ID=gevindu%3bPassword=2A3RxqDsSieu%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Something.Data.ApplicationDbContext">
+      <Value>Server=tcp:server-something.database.windows.net,1433%3bInitial Catalog=something%3bPersist Security Info=False%3bUser ID=gevindu%3bPassword=2A3RxqDsSieu%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3bServer=tcp:server-something.database.windows.net,1433%3bInitial Catalog=something%3bPersist Security Info=False%3bUser ID=gevindu%3bPassword=2A3RxqDsSieu%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

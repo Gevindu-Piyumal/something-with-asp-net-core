@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s6fL3M4csMLhoXWzepiI+i1CnafsDksgRTAlmRyE2bE=",
+  "Hash": "G63GcnZJnKobr8AcpDMHNwM1E8LFnCkaQPXKuWS0+0I=",
   "Source": "Something",
   "BasePath": "_content/Something",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Images\\bg.svg"
+    },
+    {
+      "Identity": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\wwwroot\\css\\Images\\Logo.png",
+      "SourceId": "Something",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\wwwroot\\",
+      "BasePath": "_content/Something",
+      "RelativePath": "css/Images/Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Images\\Logo.png"
     },
     {
       "Identity": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\wwwroot\\css\\site.css",

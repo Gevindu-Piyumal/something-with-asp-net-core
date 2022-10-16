@@ -7,9 +7,9 @@
 //        Particles.init
 //            ({
 //                selector: '.background',
-//                maxParticles: 30,
-//                speed:.4,
-//                connectParticles: true
+//                maxParticles: 100,
+//                speed:1,
+//                //connectParticles: true
 //            });
 //};
 
