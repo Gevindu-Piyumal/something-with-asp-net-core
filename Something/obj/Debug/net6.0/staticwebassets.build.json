@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O1UPoBlGD4kMwkmW3rPlz+SnT+M1C0CGwF6E57xGkTo=",
+  "Hash": "s6fL3M4csMLhoXWzepiI+i1CnafsDksgRTAlmRyE2bE=",
   "Source": "Something",
   "BasePath": "_content/Something",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Something.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\wwwroot\\css\\Images\\bg.svg",
+      "SourceId": "Something",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\wwwroot\\",
+      "BasePath": "_content/Something",
+      "RelativePath": "css/Images/bg.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Images\\bg.svg"
     },
     {
       "Identity": "C:\\Users\\gevin\\Desktop\\C#\\Something\\Something\\wwwroot\\css\\site.css",

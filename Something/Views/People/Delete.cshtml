@@ -4,42 +4,53 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<div class="container-fluid glass p-3">
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>People</h4>
+    <div class="row">
+        <div class="col">
+            <h1>Delete</h1>
+        </div>
+    </div>
+
+
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Company)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Company)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Telephone)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Telephone)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> 
-        <a asp-action="Index">Back to List</a>
-    </form>
+    <div class="row">
+        <div class="col">
+            <form asp-action="Delete" class="glassForm p-4 m-2">
+
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-light">Name</span>
+                    <input id="Name" asp-for="Name" type="text" disabled class="form-control" />
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-light">Company</span>
+                    <input id="Company" asp-for="Company" type="text" disabled class="form-control" />
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-light">Address</span>
+                    <input id="Address" asp-for="Address" type="text" disabled class="form-control" />
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-light">Telephone</span>
+                    <input id="Telephone" asp-for="Telephone" type="text" disabled class="form-control" />
+                </div>
+
+                <div class="row">
+                    <div class="col text-end">
+                        <a asp-action="Index" class="btn btn-secondary btn-rounded">Back to List</a>
+                        <input type="submit" value="Delete" class="btn btn-danger btn-rounded ms-5" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
 </div>
