@@ -3,15 +3,15 @@
 
 // Write your JavaScript code.
 
-window.onload = function () {
-        Particles.init
-            ({
-                selector: '.background',
-                maxParticles: 100,
-                speed:1,
-                //connectParticles: true
-            });
-};
+//window.onload = function () {
+//        Particles.init
+//            ({
+//                selector: '.background',
+//                maxParticles: 100,
+//                speed:1,
+//                //connectParticles: true
+//            });
+//};
 
 
 
