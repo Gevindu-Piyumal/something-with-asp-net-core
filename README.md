@@ -17,7 +17,7 @@ To show that I know '*basics*' of ASP.NET Core 😁
  - Azure Database
  - Azure App Services
 
-## Where
+## Where?
 https://somethingasp.azurewebsites.net/
 
 ## Screenshots
